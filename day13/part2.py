@@ -55,7 +55,6 @@ def main(points: list[str], folds: list[str]) -> str:
 
         coords_new = set()
         if axis == "y":
-
             for x, y in coords:
                 if y > index:
                     diff = y - index
