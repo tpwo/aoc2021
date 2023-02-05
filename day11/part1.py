@@ -46,7 +46,6 @@ def update_coords(
     coords: defaultdict[tuple[int, int], int],
     who_flashed=set[tuple[int, int]],
 ) -> tuple[defaultdict[tuple[int, int], int], set[tuple[int, int]]]:
-
     x, y = point
 
     if coords[(x, y)] >= 0:  # to ignore points out of boundary
